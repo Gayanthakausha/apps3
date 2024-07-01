@@ -1,0 +1,68 @@
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  
+.ourmenu{
+color: #e5fa6f;
+}
+}
+.product-card {
+  border: 1px solid #e5fa6f;
+  border-radius: 60px;
+  padding: 15px;
+  margin: 10px;
+  margin-bottom: 100px;
+  width: 250px; 
+  height: 335px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: top;
+  background-color: bisque;
+}
+
+
+.view-more-button {
+  background-color: #ffd000; 
+  color: #0c0c0c; 
+  padding: 8px 5px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 11px;
+}
+.view-more-link {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-more-link:hover {
+  text-decoration: underline;
+}
+.bg {
+  background-image: url(../src/assets/ab.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow-y: auto;
+}
+.product-image{
+  width: 50%;
+  height:50%;
+}
+@media (max-width: 768px) {
+  .product-card {
+    width: 100%; 
+    max-width: 400px; 
+  }
+}
